@@ -1,0 +1,5 @@
+<div>Hello World</div>
+
+<% if user_signed_in? %>
+    <%= link_to 'LOGOUT', destroy_user_session_path, class: 'fw-bold text-decoration-none fs-5 text-center nav-links', method: :delete %>
+<% end %>
